@@ -26,6 +26,87 @@ namespace CatalogAPI.Data
                 ImageFile = "product-1.png",
                 Price = 942.00M,
                 Category = new List<string> {"mobile phone"}
+            },
+            new Product()
+            {
+                Id = new Guid(),
+                Name = "IPhone X",
+                Description = "Description",
+                ImageFile = "product-1.png",
+                Price = 942.00M,
+                Category = new List<string> {"mobile phone"}
+            },
+            new Product()
+            {
+                Id = new Guid(),
+                Name = "IPhone X",
+                Description = "Description",
+                ImageFile = "product-1.png",
+                Price = 942.00M,
+                Category = new List<string> {"mobile phone"}
+            },
+            new Product()
+            {
+                Id = new Guid(),
+                Name = "IPhone X",
+                Description = "Description",
+                ImageFile = "product-1.png",
+                Price = 942.00M,
+                Category = new List<string> {"mobile phone"}
+            },
+            new Product()
+            {
+                Id = new Guid(),
+                Name = "IPhone X",
+                Description = "Description",
+                ImageFile = "product-1.png",
+                Price = 942.00M,
+                Category = new List<string> {"mobile phone"}
+            },
+            new Product()
+            {
+                Id = new Guid(),
+                Name = "IPhone X",
+                Description = "Description",
+                ImageFile = "product-1.png",
+                Price = 942.00M,
+                Category = new List<string> {"mobile phone"}
+            },
+            new Product()
+            {
+                Id = new Guid(),
+                Name = "IPhone X",
+                Description = "Description",
+                ImageFile = "product-1.png",
+                Price = 942.00M,
+                Category = new List<string> {"mobile phone"}
+            },
+            new Product()
+            {
+                Id = new Guid(),
+                Name = "IPhone X",
+                Description = "Description",
+                ImageFile = "product-1.png",
+                Price = 942.00M,
+                Category = new List<string> {"mobile phone"}
+            },
+            new Product()
+            {
+                Id = new Guid(),
+                Name = "IPhone X",
+                Description = "Description",
+                ImageFile = "product-1.png",
+                Price = 942.00M,
+                Category = new List<string> {"mobile phone"}
+            },
+            new Product()
+            {
+                Id = new Guid(),
+                Name = "IPhone X",
+                Description = "Description",
+                ImageFile = "product-1.png",
+                Price = 942.00M,
+                Category = new List<string> {"mobile phone"}
             }
         };
     }
