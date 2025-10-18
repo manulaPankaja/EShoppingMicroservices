@@ -4,7 +4,7 @@ using BasketAPI.Basket.GetBasket;
 namespace BasketAPI.Basket.StoreBasket
 {
     public record StoreBasketRequest(ShoppingCart Cart);
-    public record StoreBasketResponse(string userName);
+    public record StoreBasketResponse(string UserName);
     public class StoreBasketEndpoints : ICarterModule
     {
         public void AddRoutes(IEndpointRouteBuilder app)
@@ -14,7 +14,7 @@ namespace BasketAPI.Basket.StoreBasket
                 var command = request.Adapt<StoreBasketCommand>();
                 var result = await sender.Send(command);
                 var response = result.Adapt<StoreBasketResponse>();
-                return Results.Created($"/basket/{response.userName}", response);
+                return Results.Created($"/basket/{response.UserName}", response);
             })
                 .WithName("CreateProduct")
                 .Produces<StoreBasketResponse>(StatusCodes.Status201Created)
